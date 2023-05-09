@@ -9,7 +9,7 @@ const morgan_1 = __importDefault(require("morgan"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const index_js_1 = require("./routes/index.js");
 dotenv_1.default.config();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT;
 const app = (0, express_1.default)();
 app.use(express_1.default.json({ limit: "30mb" }));
 app.use(express_1.default.urlencoded({ limit: "30mb", extended: true }));

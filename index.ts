@@ -8,7 +8,7 @@ import { cake, footer, startInSeconds, usedTrusted } from "./routes/index.js";
 
 dotenv.config();
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT;
 const app: Express = express();
 
 app.use(express.json({ limit: "30mb" }));
