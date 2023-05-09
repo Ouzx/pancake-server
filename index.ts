@@ -17,6 +17,8 @@ app.use(express.urlencoded({ limit: "30mb", extended: true }));
 app.use(morgan("common"));
 app.use(cors());
 
+app.use("/media", express.static(process.cwd() + "/public/"));
+
 /* ROUTES */
 app.use("/cake", cake);
 app.use("/footer", footer);

@@ -15,6 +15,7 @@ app.use(express_1.default.json({ limit: "30mb" }));
 app.use(express_1.default.urlencoded({ limit: "30mb", extended: true }));
 app.use((0, morgan_1.default)("common"));
 app.use((0, cors_1.default)());
+app.use("/media", express_1.default.static(process.cwd() + "/public/"));
 /* ROUTES */
 app.use("/cake", index_js_1.cake);
 app.use("/footer", index_js_1.footer);
