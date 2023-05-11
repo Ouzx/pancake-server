@@ -28,7 +28,7 @@ const data = {
         {
             number: "$2.2 billion",
             adj: "staked  ",
-            description: "Total Value Locked",
+            description: "total Value Locked",
         },
     ],
 };
