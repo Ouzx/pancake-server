@@ -11,9 +11,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getStartInSecondsData = void 0;
 const data = {
-    header: 'Start in seconds.',
-    paragraph: 'Connect your crypto wallet to start using the app in seconds.',
-    paragraphBold: 'No registration needed.',
+    header: "Start in seconds.",
+    paragraph: "Connect your crypto wallet to start using the app in seconds.",
+    paragraphBold: "No registration needed.",
     buttonText: "Connect Wallet",
     linkText: "Learn how to start",
 };
