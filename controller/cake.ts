@@ -13,20 +13,20 @@ const data = {
       data: "200,369,318",
     },
     {
-      entry: "Market cap",
-      data: "$370 million",
-    },
-    {
       entry: "Total supply",
       data: "385,464,216",
     },
     {
-      entry: "Burned to date",
-      data: "826,186,824",
-    },
-    {
       entry: "Max Supply",
       data: "750,000,000",
+    },
+    {
+      entry: "Market cap",
+      data: "$370 million",
+    },
+    {
+      entry: "Burned to date",
+      data: "826,186,824",
     },
     {
       entry: "Current emissions",
