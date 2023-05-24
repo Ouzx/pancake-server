@@ -19,11 +19,11 @@ const data = {
     blocks: [
         {
             entry: "Circulating Supply",
-            data: "200,369,318",
+            data: 200369318,
         },
         {
             entry: "Total supply",
-            data: "385,464,216",
+            data: 385464216,
         },
         {
             entry: "Max Supply",
@@ -35,7 +35,7 @@ const data = {
         },
         {
             entry: "Burned to date",
-            data: "826,186,824",
+            data: 826186824,
         },
         {
             entry: "Current emissions",
